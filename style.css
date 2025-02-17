@@ -1,0 +1,59 @@
+body{
+    padding:0px;
+    margin:0px;
+    background:linear-gradient(to right,rgb(244, 0, 159),rgb(0, 138, 145));
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:500px;
+    height:400px;
+    margin:auto;
+    margin-top:150px; 
+    border:2px solid black;
+    border-radius:10px;
+    background-color:rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(6px);
+    color: white;
+    text-align:center;
+    box-shadow:0 0 20px 15px rgba(0,0,0,0.26);
+}
+#birthdate{
+    width:400px;
+    padding:10px;
+    border-radius:10px;
+    outline:none;
+    border:1px solid rgba(255,255,255,0.2);
+    background-color:rgba(255, 255, 255, 0.7);
+    margin:20px 20px;
+}
+#agecalculator{
+    margin:20px;
+    padding:12px;
+    width:200px;
+    font-size:20px;
+    border-radius:20px;
+    border:none;
+    background-color:rgb(0, 247, 255);
+}
+h1,label{
+    margin-top:50px;
+}
+h1{
+    color:rgb(0, 247, 255);
+}
+#result{
+    margin-top: 20px;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+#agecalculator:hover{
+    box-shadow:0 0 10px 2px rgb(0, 247, 255);
+
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:80px;
+}
